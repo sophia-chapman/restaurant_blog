@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+
+  <head>
+    <meta charset='utf-8'/>
+  <title>NOLA Eats</title>
+  </head>
+  <body>
+    <h1>Top Five Restaurants in New Orleans</h1>
+    <p>
+      You probably won't have a bad food experience in <strong>New Orleans</strong>. Here are some of
+      my suggestions of where to start!
+      </p>
+
+    <div>
+      <ol>
+      <li>
+        <a href='https://www.commanderspalace.com' target='_blank'>Commander's
+         Palace</a>
+         <br />
+         <img src='https://www.nrn.com/sites/nrn.com/files/styles/article_featured_retina/public/Commander_s_Palace_Lit770_5.png?itok=B4oTWjT6' width='500' />
+      </li>
+      <li>
+        <a href='https://parkwaypoorboys.com/' target='_blank'>Parkway Bakery</a>
+      <br />
+        <img src='https://static.simpsonswiki.com/images/3/36/Parkway_Bakery_and_Tavern.png' width='500' />
+      </li>
+      <li>
+        <a href="https://www.napoleonhouse.com/" target='_blank'>Napoleon
+        House</a>
+        <br />
+        <img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_80,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/neworleans/NapoleonHouse04_RebeccaTodd0-3e5779f65056b36_3e577c9c-5056-b365-abbbd2f085ba2fde.jpg" width='500' />
+      </li>
+      <li>
+        <a href='http://mandinasrestaurant.com/' target='_blank'>Mandina's</a>
+        <br />
+        <img src='http://www.artsneworleans.org/wp-content/uploads/2016/08/Sean_Gautreaux-Mandinas_for_AC-1024x751.jpg' width='500' />
+      </li>
+      <li>
+          <a href='http://www.cafedumonde.com/' target='_blank'>Cafe du Monde</a>
+          <br />
+          <img src='https://upload.wikimedia.org/wikipedia/commons/9/9d/Beignets_and_Caf%C3%A9_au_Lait_at_Caf%C3%A9_du_Monde%2C_New_Orleans.jpg' width='500' />
+      </li>
+      <li>
+        BONUS:<a href='my_kitchen.html'>My Kitchen!</a>
+        <br />
+        <img src='https://www.caringonline.com/wp-content/uploads/bigstock-Young-Woman-Cooking-in-the-kit-59849312.jpg' width='500' />
+        </li>
+    </ol>
+    </div>
+
+    <div>
+      <table>
+    <tr>
+      <th>Restaurant</th>
+      <th>Price</th>
+      <th>Best Dish</th>
+    </tr>
+    <tr>
+      <td>Commander's Palace</td>
+      <td>$$$$</td>
+      <td>Gumbo</td>
+    </tr>
+    <tr>
+      <td>Parkway Bakery</td>
+      <td>$</td>
+      <td>Shrimp Poboy</td>
+    </tr>
+    <tr>
+      <td>Napoleon House</td>
+      <td>$$$</td>
+      <td>Muffaletta</td>
+    </tr>
+    <tr>
+      <td>Mandina's</td>
+      <td>$$</td>
+      <td>Seafood Platter</td>
+    </tr>
+    <tr>
+      <td>Cafe du Monde</td>
+      <td>$</td>
+      <td>Beignets</td>
+    </tr>
+  </table>
+  </div>
+
+  <p>Let me know if you would like to head over to my kitchen or if you have
+  any other questions in the contact form below!</p>
+  <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+    </body>
+</html>
